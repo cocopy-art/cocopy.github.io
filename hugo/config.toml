@@ -1,0 +1,10 @@
+baseURL = "https://cocopy.art/"
+languageCode = "en-us"
+title = "cocopy app"
+canonifyurls = true
+publishDir = "../docs/"
+theme = "hugo-kiera"
+copyright = "Copyright &copy; 2019 - humboldt"
+enableEmoji = true
+pygmentsCodeFences = true
+

@@ -1,0 +1,15 @@
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+ <channel>
+   <title>Tags on cocopy app</title>
+   <link>https://cocopy.art/tags/</link>
+   <description>Recent content in Tags on cocopy app</description>
+   <generator>Hugo -- gohugo.io</generator>
+   <language>en-us</language>
+   <copyright>Copyright &amp;copy; 2019 - humboldt</copyright>
+   
+       <atom:link href="https://cocopy.art/tags/index.xml" rel="self" type="application/rss+xml" />
+   
+   
+ </channel>
+</rss>

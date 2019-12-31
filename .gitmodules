@@ -1,0 +1,3 @@
+[submodule "hugo/themes/hugo-kiera"]
+	path = hugo/themes/hugo-kiera
+	url = https://github.com/funkydan2/hugo-kiera
