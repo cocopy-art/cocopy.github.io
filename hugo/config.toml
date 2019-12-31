@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "cocopy app"
 canonifyurls = true
 publishDir = "../docs/"
+uglyURLs=true
 theme = "hugo-kiera"
 copyright = "Copyright &copy; 2019 - humboldt"
 enableEmoji = true

@@ -1,12 +1,9 @@
 ---
-title: "Private"
+title: "Privacy Policy"
 date: 2019-12-31T14:39:05+08:00
 linktitle: Private
 draft: false
 ---
-
-
-# Privacy Policy
 
 ## Data storage
 

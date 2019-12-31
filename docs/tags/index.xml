@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
  <channel>
    <title>Tags on cocopy app</title>
-   <link>https://cocopy.art/tags/</link>
+   <link>https://cocopy.art/tags.html</link>
    <description>Recent content in Tags on cocopy app</description>
    <generator>Hugo -- gohugo.io</generator>
    <language>en-us</language>
