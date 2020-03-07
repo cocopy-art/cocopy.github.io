@@ -14,7 +14,7 @@
 
     
     
-      <link href="https://cocopy.art/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+      <link href="https://cocopy.art/dist/css/app.e22fad5f325d81d700f73e5bcba2a5c4.css" rel="stylesheet">
     
 
     
@@ -26,7 +26,7 @@
     
     
     <meta property="og:title" content="" />
-<meta property="og:description" content="教程 什么是cocopy 意思为： Cool Copy
+<meta property="og:description" content="介绍 Cocopy 什么是cocopy 意思为： Cool Copy
 目的是使剪切板的管理，简单、高效、强大
 期亮点是，可以对剪切板上面内容进行操作，以及支持调用外部命令。
 使用户可以使用强大的命令行工具组合使用
@@ -37,7 +37,7 @@
 <meta property="og:url" content="https://cocopy.art/help-cn.html" />
 
 <meta itemprop="name" content="">
-<meta itemprop="description" content="教程 什么是cocopy 意思为： Cool Copy
+<meta itemprop="description" content="介绍 Cocopy 什么是cocopy 意思为： Cool Copy
 目的是使剪切板的管理，简单、高效、强大
 期亮点是，可以对剪切板上面内容进行操作，以及支持调用外部命令。
 使用户可以使用强大的命令行工具组合使用
@@ -45,13 +45,13 @@
 当前版本支持的类型为:
    类型 说明     string 文本类型   png 图片类型(png,tiff,图片文件等)都转为png 格式输出   fileUrl 格式为 file:///path/path2/filename.">
 
-<meta itemprop="wordCount" content="153">
+<meta itemprop="wordCount" content="160">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="教程 什么是cocopy 意思为： Cool Copy
+<meta name="twitter:description" content="介绍 Cocopy 什么是cocopy 意思为： Cool Copy
 目的是使剪切板的管理，简单、高效、强大
 期亮点是，可以对剪切板上面内容进行操作，以及支持调用外部命令。
 使用户可以使用强大的命令行工具组合使用
@@ -120,12 +120,12 @@
         </h1>
       </header>
       <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
-        <h1 id="heading">教程</h1>
+        <h1 id="-cocopy">介绍 Cocopy</h1>
 <p>什么是cocopy 意思为： Cool Copy</p>
 <p>目的是使剪切板的管理，简单、高效、强大</p>
 <p>期亮点是，可以对剪切板上面内容进行操作，以及支持调用外部命令。</p>
 <p>使用户可以使用强大的命令行工具组合使用</p>
-<h2 id="heading-1">基础使用</h2>
+<h2 id="heading">基础使用</h2>
 <ol>
 <li><code>command (⌘) + shift (⇧) + c</code> to popup Cocopy or click on its icon in the menu bar.</li>
 <li>Type what you want to find.</li>
@@ -133,7 +133,7 @@
 <li>To delete the history item, press <code>OPTION (⌥) + DELETE (⌫)</code>.</li>
 </ol>
 <p><img src="./mages/main.png" alt=""></p>
-<h2 id="heading-2">扩展</h2>
+<h2 id="heading-1">扩展</h2>
 <p><img src="./images/main-menu.png" alt=""></p>
 <p>选择 Preference 调出偏好设置</p>
 <p><img src="./images/preference.png" alt=""></p>
@@ -179,27 +179,27 @@
 <tbody>
 <tr>
 <td>stream</td>
-<td>以流的形式输出,等价于 : <code>pbpaste | hello.sh</code></td>
+<td>以流的形式输出,等价于 : <code>$ pbpaste | hello.sh</code></td>
 </tr>
 <tr>
 <td>streamln</td>
-<td>以流的形式输出,等价于 : <code>echo &quot;$(pbpaste)&quot; | hello.sh</code></td>
+<td>以流的形式输出,等价于 : <code>$ echo &quot;$(pbpaste)&quot; | hello.sh</code></td>
 </tr>
 <tr>
 <td>variable</td>
-<td>以环境变量,等价于 : <code>query=&quot;$(pbpaste)&quot; hello.sh</code></td>
+<td>以环境变量,等价于 : <code>$ query=&quot;$(pbpaste)&quot; hello.sh</code></td>
 </tr>
 <tr>
 <td>variable.query_string</td>
-<td>以环境变量,等价于 : <code>query=&quot;$(pbpaste | encodeURIComponent)&quot; | hello.sh</code></td>
+<td>以环境变量,等价于 : <code>$ query=&quot;$(pbpaste | encodeURIComponent)&quot; | hello.sh</code></td>
 </tr>
 <tr>
 <td>base64</td>
-<td>以base64形式输出,等价于: <code>pbpaste | base64 | hello.sh</code></td>
+<td>以base64形式输出,等价于: <code>$ pbpaste | base64 | hello.sh</code></td>
 </tr>
 <tr>
 <td>type base64</td>
-<td>以<a href="">类型</a>+空格+base64 形式输出,等价于:<code>echo $type &quot;$(pbpaste | base64)&quot; |hello.sh</code></td>
+<td>以<a href="">类型</a>+空格+base64 形式输出,等价于:<code>$ echo $type &quot;$(pbpaste | base64)&quot; |hello.sh</code></td>
 </tr>
 </tbody>
 </table>
@@ -235,12 +235,12 @@
 </tr>
 </tbody>
 </table>
-<h2 id="heading-3">命令功能</h2>
+<h2 id="heading-2">命令功能</h2>
 <p>当开头为<code>:</code>时，直接执行后面命令，将标准输出复制到剪切板</p>
 <p>比如输入</p>
 <pre><code>:ps
 </code></pre><p>然后选择列表提示项</p>
-<h2 id="heading-4">自定义按键</h2>
+<h2 id="heading-3">自定义按键</h2>
 <p><img src="./images/key-binding.png" alt=""></p>
 
       </div>
