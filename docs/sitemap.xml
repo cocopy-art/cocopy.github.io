@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>https://cocopy.art/help-cn.html</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://cocopy.art/categories.html</loc>
   </url>
   

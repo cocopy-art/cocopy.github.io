@@ -1,16 +1,39 @@
-
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
- <channel>
-   <title>cocopy app</title>
-   <link>https://cocopy.art/</link>
-   <description>Recent content on cocopy app</description>
-   <generator>Hugo -- gohugo.io</generator>
-   <language>en-us</language>
-   <copyright>Copyright &amp;copy; 2019 - humboldt</copyright>
-   <lastBuildDate>Tue, 31 Dec 2019 18:01:55 +0800</lastBuildDate>
-   
-       <atom:link href="https://cocopy.art/index.xml" rel="self" type="application/rss+xml" />
-   
-   
- </channel>
+  <channel>
+    <title>cocopy app</title>
+    <link>https://cocopy.art/</link>
+    <description>Recent content on cocopy app</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2019 - humboldt</copyright>
+    <lastBuildDate>Tue, 31 Dec 2019 18:01:55 +0800</lastBuildDate>
+    
+	<atom:link href="https://cocopy.art/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://cocopy.art/private.html</link>
+      <pubDate>Tue, 31 Dec 2019 14:39:05 +0800</pubDate>
+      
+      <guid>https://cocopy.art/private.html</guid>
+      <description>Data storage   Cocopy stores all your data locally on the device you use it in binary format, without encryption.
+  If Sync is enabled, Cocopy stores a copy of your local data in your iCloud Drive. Learn more about iCloud security  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://cocopy.art/help-cn.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cocopy.art/help-cn.html</guid>
+      <description>教程 什么是cocopy 意思为： Cool Copy
+目的是使剪切板的管理，简单、高效、强大
+期亮点是，可以对剪切板上面内容进行操作，以及支持调用外部命令。
+使用户可以使用强大的命令行工具组合使用
+基础使用  command (⌘)+ shift (⇧)+ cto popup Cocopy or click on its icon in the menu bar. Type what you want to find. To select the history item you wish to copy, press ENTER, or click the item To delete the history item, press OPTION (⌥)+ DELETE (⌫). To see the full text of the history item, wait a couple of seconds for tooltip.</description>
+    </item>
+    
+  </channel>
 </rss>
