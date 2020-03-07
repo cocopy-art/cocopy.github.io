@@ -4,6 +4,11 @@
   margin-bottom: 1em;
 }
 
+td code {
+	color: #ddd;
+	background-color: #666;
+}
+
 .lh-copy blockquote {
   display: block;
   font-size: .875em;

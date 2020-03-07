@@ -32,7 +32,18 @@
 目的是使剪切板的管理，简单、高效、强大
 期亮点是，可以对剪切板上面内容进行操作，以及支持调用外部命令。
 使用户可以使用强大的命令行工具组合使用
-基础使用  command (⌘)+ shift (⇧)+ cto popup Cocopy or click on its icon in the menu bar. Type what you want to find. To select the history item you wish to copy, press ENTER, or click the item To delete the history item, press OPTION (⌥)+ DELETE (⌫). To see the full text of the history item, wait a couple of seconds for tooltip.</description>
+基础使用  command (⌘) + shift (⇧) + c to popup Cocopy or click on its icon in the menu bar. Type what you want to find. To select the history item you wish to copy, press ENTER, or click the item To delete the history item, press OPTION (⌥) + DELETE (⌫).  扩展 选择 Preference 调出偏好设置
+当前版本支持的类型为:
+   类型 说明     string 文本类型   png 图片类型(png,tiff,图片文件等)都转为png 格式输出   fileUrl 格式为 file:///path/path2/filename.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://cocopy.art/help-en.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cocopy.art/help-en.html</guid>
+      <description>usage  command (⌘) + shift (⇧) + c to popup Cocopy or click on its icon in the menu bar. Type what you want to find. To select the history item you wish to copy, press ENTER, or click the item To delete the history item, press OPTION (⌥) + DELETE (⌫).  </description>
     </item>
     
   </channel>

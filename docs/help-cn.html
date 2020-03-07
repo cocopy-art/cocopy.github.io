@@ -30,7 +30,9 @@
 目的是使剪切板的管理，简单、高效、强大
 期亮点是，可以对剪切板上面内容进行操作，以及支持调用外部命令。
 使用户可以使用强大的命令行工具组合使用
-基础使用  command (⌘)&#43; shift (⇧)&#43; cto popup Cocopy or click on its icon in the menu bar. Type what you want to find. To select the history item you wish to copy, press ENTER, or click the item To delete the history item, press OPTION (⌥)&#43; DELETE (⌫). To see the full text of the history item, wait a couple of seconds for tooltip." />
+基础使用  command (⌘) &#43; shift (⇧) &#43; c to popup Cocopy or click on its icon in the menu bar. Type what you want to find. To select the history item you wish to copy, press ENTER, or click the item To delete the history item, press OPTION (⌥) &#43; DELETE (⌫).  扩展 选择 Preference 调出偏好设置
+当前版本支持的类型为:
+   类型 说明     string 文本类型   png 图片类型(png,tiff,图片文件等)都转为png 格式输出   fileUrl 格式为 file:///path/path2/filename." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://cocopy.art/help-cn.html" />
 
@@ -39,9 +41,11 @@
 目的是使剪切板的管理，简单、高效、强大
 期亮点是，可以对剪切板上面内容进行操作，以及支持调用外部命令。
 使用户可以使用强大的命令行工具组合使用
-基础使用  command (⌘)&#43; shift (⇧)&#43; cto popup Cocopy or click on its icon in the menu bar. Type what you want to find. To select the history item you wish to copy, press ENTER, or click the item To delete the history item, press OPTION (⌥)&#43; DELETE (⌫). To see the full text of the history item, wait a couple of seconds for tooltip.">
+基础使用  command (⌘) &#43; shift (⇧) &#43; c to popup Cocopy or click on its icon in the menu bar. Type what you want to find. To select the history item you wish to copy, press ENTER, or click the item To delete the history item, press OPTION (⌥) &#43; DELETE (⌫).  扩展 选择 Preference 调出偏好设置
+当前版本支持的类型为:
+   类型 说明     string 文本类型   png 图片类型(png,tiff,图片文件等)都转为png 格式输出   fileUrl 格式为 file:///path/path2/filename.">
 
-<meta itemprop="wordCount" content="75">
+<meta itemprop="wordCount" content="153">
 
 
 
@@ -51,7 +55,9 @@
 目的是使剪切板的管理，简单、高效、强大
 期亮点是，可以对剪切板上面内容进行操作，以及支持调用外部命令。
 使用户可以使用强大的命令行工具组合使用
-基础使用  command (⌘)&#43; shift (⇧)&#43; cto popup Cocopy or click on its icon in the menu bar. Type what you want to find. To select the history item you wish to copy, press ENTER, or click the item To delete the history item, press OPTION (⌥)&#43; DELETE (⌫). To see the full text of the history item, wait a couple of seconds for tooltip."/>
+基础使用  command (⌘) &#43; shift (⇧) &#43; c to popup Cocopy or click on its icon in the menu bar. Type what you want to find. To select the history item you wish to copy, press ENTER, or click the item To delete the history item, press OPTION (⌥) &#43; DELETE (⌫).  扩展 选择 Preference 调出偏好设置
+当前版本支持的类型为:
+   类型 说明     string 文本类型   png 图片类型(png,tiff,图片文件等)都转为png 格式输出   fileUrl 格式为 file:///path/path2/filename."/>
 
   </head>
 
@@ -121,15 +127,121 @@
 <p>使用户可以使用强大的命令行工具组合使用</p>
 <h2 id="heading-1">基础使用</h2>
 <ol>
-<li><!-- raw HTML omitted -->command (⌘)<!-- raw HTML omitted --> + <!-- raw HTML omitted -->shift (⇧)<!-- raw HTML omitted --> + <!-- raw HTML omitted -->c<!-- raw HTML omitted --> to popup Cocopy or click on its icon in the menu bar.</li>
+<li><code>command (⌘) + shift (⇧) + c</code> to popup Cocopy or click on its icon in the menu bar.</li>
 <li>Type what you want to find.</li>
-<li>To select the history item you wish to copy, press <!-- raw HTML omitted -->ENTER<!-- raw HTML omitted -->, or click the item</li>
-<li>To delete the history item, press <!-- raw HTML omitted -->OPTION (⌥)<!-- raw HTML omitted --> + <!-- raw HTML omitted -->DELETE (⌫)<!-- raw HTML omitted -->.</li>
-<li>To see the full text of the history item, wait a couple of seconds for tooltip.</li>
+<li>To select the history item you wish to copy, press ENTER, or click the item</li>
+<li>To delete the history item, press <code>OPTION (⌥) + DELETE (⌫)</code>.</li>
 </ol>
-<h2 id="heading-2">复制版管理</h2>
-<h2 id="heading-3">扩展</h2>
+<p><img src="./mages/main.png" alt=""></p>
+<h2 id="heading-2">扩展</h2>
+<p><img src="./images/main-menu.png" alt=""></p>
+<p>选择 Preference 调出偏好设置</p>
+<p><img src="./images/preference.png" alt=""></p>
+<p><strong>当前版本支持的类型为:</strong></p>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>string</td>
+<td>文本类型</td>
+</tr>
+<tr>
+<td>png</td>
+<td>图片类型(png,tiff,图片文件等)都转为png 格式输出</td>
+</tr>
+<tr>
+<td>fileUrl</td>
+<td>格式为 file:///path/path2/filename.png</td>
+</tr>
+<tr>
+<td>filePath</td>
+<td>格式为 /path/path2/file.png</td>
+</tr>
+<tr>
+<td>html</td>
+<td>html 原文</td>
+</tr>
+</tbody>
+</table>
+<p><strong>as 后面则是选择以什么方式传递给命令</strong></p>
+<table>
+<thead>
+<tr>
+<th>方式</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>stream</td>
+<td>以流的形式输出,等价于 : <code>pbpaste | hello.sh</code></td>
+</tr>
+<tr>
+<td>streamln</td>
+<td>以流的形式输出,等价于 : <code>echo &quot;$(pbpaste)&quot; | hello.sh</code></td>
+</tr>
+<tr>
+<td>variable</td>
+<td>以环境变量,等价于 : <code>query=&quot;$(pbpaste)&quot; hello.sh</code></td>
+</tr>
+<tr>
+<td>variable.query_string</td>
+<td>以环境变量,等价于 : <code>query=&quot;$(pbpaste | encodeURIComponent)&quot; | hello.sh</code></td>
+</tr>
+<tr>
+<td>base64</td>
+<td>以base64形式输出,等价于: <code>pbpaste | base64 | hello.sh</code></td>
+</tr>
+<tr>
+<td>type base64</td>
+<td>以<a href="">类型</a>+空格+base64 形式输出,等价于:<code>echo $type &quot;$(pbpaste | base64)&quot; |hello.sh</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>command: 为需要调用的命令,目前版本不支持直接在这里使用管道</strong></p>
+<p><strong>out type: 输出到剪切板的类型</strong></p>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>string</td>
+<td>输出文本类型</td>
+</tr>
+<tr>
+<td>tiff</td>
+<td>输出tiff</td>
+</tr>
+<tr>
+<td>png</td>
+<td>输出png 格式</td>
+</tr>
+<tr>
+<td>type base64</td>
+<td>返回<code>类型 值的base64</code></td>
+</tr>
+<tr>
+<td>empty</td>
+<td>无任何返回</td>
+</tr>
+</tbody>
+</table>
+<h2 id="heading-3">命令功能</h2>
+<p>当开头为<code>:</code>时，直接执行后面命令，将标准输出复制到剪切板</p>
+<p>比如输入</p>
+<pre><code>:ps
+</code></pre><p>然后选择列表提示项</p>
 <h2 id="heading-4">自定义按键</h2>
+<p><img src="./images/key-binding.png" alt=""></p>
 
       </div>
     </article>
