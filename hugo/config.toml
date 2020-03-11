@@ -8,4 +8,10 @@ theme = "ananke"
 copyright = "Copyright &copy; 2019 - humboldt"
 enableEmoji = true
 pygmentsCodeFences = true
-
+[menu]
+  [[menu.main]]
+    identifier = "help"
+    name = "help"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/help-cn.html"
+    weight = -110

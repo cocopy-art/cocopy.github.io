@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>cocopy app</title>
-    <link>https://cocopy.art/</link>
-    <description>Recent content on cocopy app</description>
+    <title>help on cocopy app</title>
+    <link>https://cocopy.art/categories/help.html</link>
+    <description>Recent content in help on cocopy app</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2019 - humboldt</copyright>
-    <lastBuildDate>Tue, 31 Dec 2019 18:01:55 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 11 Mar 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://cocopy.art/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cocopy.art/categories/help/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -25,25 +25,6 @@
 基础使用  command (⌘) + shift (⇧) + c to popup Cocopy or click on its icon in the menu bar. Type what you want to find. To select the history item you wish to copy, press ENTER, or click the item To delete the history item, press OPTION (⌥) + DELETE (⌫).  扩展 选择 Preference 调出偏好设置
 当前版本支持的类型为:
    类型 说明     string 文本类型   png 图片类型(png,tiff,图片文件等)都转为png 格式输出   fileUrl 格式为 file:///path/path2/filename.</description>
-    </item>
-    
-    <item>
-      <title>Privacy Policy</title>
-      <link>https://cocopy.art/private.html</link>
-      <pubDate>Tue, 31 Dec 2019 14:39:05 +0800</pubDate>
-      
-      <guid>https://cocopy.art/private.html</guid>
-      <description>Data storage   Cocopy stores all your data locally on the device you use it in binary format, without encryption.
-  If Sync is enabled, Cocopy stores a copy of your local data in your iCloud Drive. Learn more about iCloud security  </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://cocopy.art/help-en.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://cocopy.art/help-en.html</guid>
-      <description>usage  command (⌘) + shift (⇧) + c to popup Cocopy or click on its icon in the menu bar. Type what you want to find. To select the history item you wish to copy, press ENTER, or click the item To delete the history item, press OPTION (⌥) + DELETE (⌫).  </description>
     </item>
     
   </channel>

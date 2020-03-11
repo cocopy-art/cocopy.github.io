@@ -1,3 +1,9 @@
++++
+title = "使用文档"
+date= "2020-03-11"
+tags= ["help"]
+categories= ["help"]
++++
 
 # 介绍 Cocopy
 
@@ -17,7 +23,7 @@
 3. To select the history item you wish to copy, press ENTER, or click the item
 4. To delete the history item, press `OPTION (⌥) + DELETE (⌫)`.
 
-![](./mages/main.png)
+![](./images/main.png)
 
 ## 扩展
 
