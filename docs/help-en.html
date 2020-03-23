@@ -26,20 +26,32 @@
     
     
     <meta property="og:title" content="" />
-<meta property="og:description" content="usage  command (⌘) &#43; shift (⇧) &#43; c to popup Cocopy or click on its icon in the menu bar. Type what you want to find. To select the history item you wish to copy, press ENTER, or click the item To delete the history item, press OPTION (⌥) &#43; DELETE (⌫).  " />
+<meta property="og:description" content="Introduction to Cocopy What does cocopy mean: Cool Copy
+The purpose is to make the management of the clipboard simple, efficient and powerful
+The highlight is that you can operate the contents on the clipboard and support calling external commands.
+Enables users to use a combination of powerful command line tools
+Basic usage  command (⌘) &#43; shift (⇧) &#43; c to popup Cocopy or click on its icon in the menu bar." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://cocopy.art/help-en.html" />
 
 <meta itemprop="name" content="">
-<meta itemprop="description" content="usage  command (⌘) &#43; shift (⇧) &#43; c to popup Cocopy or click on its icon in the menu bar. Type what you want to find. To select the history item you wish to copy, press ENTER, or click the item To delete the history item, press OPTION (⌥) &#43; DELETE (⌫).  ">
+<meta itemprop="description" content="Introduction to Cocopy What does cocopy mean: Cool Copy
+The purpose is to make the management of the clipboard simple, efficient and powerful
+The highlight is that you can operate the contents on the clipboard and support calling external commands.
+Enables users to use a combination of powerful command line tools
+Basic usage  command (⌘) &#43; shift (⇧) &#43; c to popup Cocopy or click on its icon in the menu bar.">
 
-<meta itemprop="wordCount" content="52">
+<meta itemprop="wordCount" content="328">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="usage  command (⌘) &#43; shift (⇧) &#43; c to popup Cocopy or click on its icon in the menu bar. Type what you want to find. To select the history item you wish to copy, press ENTER, or click the item To delete the history item, press OPTION (⌥) &#43; DELETE (⌫).  "/>
+<meta name="twitter:description" content="Introduction to Cocopy What does cocopy mean: Cool Copy
+The purpose is to make the management of the clipboard simple, efficient and powerful
+The highlight is that you can operate the contents on the clipboard and support calling external commands.
+Enables users to use a combination of powerful command line tools
+Basic usage  command (⌘) &#43; shift (⇧) &#43; c to popup Cocopy or click on its icon in the menu bar."/>
 
   </head>
 
@@ -108,13 +120,128 @@
         </h1>
       </header>
       <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
-        <h2 id="usage">usage</h2>
+        <h1 id="introduction-to-cocopy">Introduction to Cocopy</h1>
+<p>What does cocopy mean: Cool Copy</p>
+<p>The purpose is to make the management of the clipboard simple, efficient and powerful</p>
+<p>The highlight is that you can operate the contents on the clipboard and support calling external commands.</p>
+<p>Enables users to use a combination of powerful command line tools</p>
+<h2 id="basic-usage">Basic usage</h2>
 <ol>
 <li><code>command (⌘) + shift (⇧) + c</code> to popup Cocopy or click on its icon in the menu bar.</li>
 <li>Type what you want to find.</li>
 <li>To select the history item you wish to copy, press ENTER, or click the item</li>
 <li>To delete the history item, press <code>OPTION (⌥) + DELETE (⌫)</code>.</li>
 </ol>
+<p><img src="./images/main.png" alt=""></p>
+<h2 id="extension">Extension</h2>
+<p><img src="./images/main-menu.png" alt=""></p>
+<p>Select Preference to bring up preferences</p>
+<p><img src="./images/preference.png" alt=""></p>
+<p><strong>The types supported by the current version are:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>string</td>
+<td>Text Type</td>
+</tr>
+<tr>
+<td>png</td>
+<td>image types (png, tiff, image files, etc.) are converted to png format and output</td>
+</tr>
+<tr>
+<td>fileUrl</td>
+<td>Format is file:///path/path2/filename.png</td>
+</tr>
+<tr>
+<td>filePath</td>
+<td>format is /path/path2/file.png</td>
+</tr>
+<tr>
+<td>html</td>
+<td>html original</td>
+</tr>
+</tbody>
+</table>
+<p><strong>as is the way to choose to pass to the command</strong></p>
+<table>
+<thead>
+<tr>
+<th>Way</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>stream</td>
+<td>Output as stream, equivalent to: <code>$ pbpaste | hello.sh</code></td>
+</tr>
+<tr>
+<td>streamln</td>
+<td>Output as a stream, equivalent to: <code>$ echo&quot; $ (pbpaste) &quot;| hello.sh</code></td>
+</tr>
+<tr>
+<td>variable</td>
+<td>Environment variables, equivalent to: <code>$ query =&quot; $ (pbpaste) &quot;hello.sh</code></td>
+</tr>
+<tr>
+<td>variable.query_string</td>
+<td>Environment variables, equivalent to: <code>$ query =&quot; $ (pbpaste | encodeURIComponent) &quot;| hello.sh</code></td>
+</tr>
+<tr>
+<td>base64</td>
+<td>Output as base64, equivalent to: <code>$ pbpaste | base64 | hello.sh</code></td>
+</tr>
+<tr>
+<td>type base64</td>
+<td>is output as [type] () + space + base64, which is equivalent to: <code>$ echo $ type&quot; $ (pbpaste | base64) &quot;| hello.sh</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>command: For the command to be called, the current version does not support using pipes directly here</strong></p>
+<p><strong>out type: The type of output to the clipboard</strong></p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Remarks</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>string</td>
+<td>output text type</td>
+</tr>
+<tr>
+<td>tiff</td>
+<td>output tiff</td>
+</tr>
+<tr>
+<td>png</td>
+<td>output png format</td>
+</tr>
+<tr>
+<td>type base64</td>
+<td>returns base64 of type</td>
+</tr>
+<tr>
+<td>empty</td>
+<td>No return</td>
+</tr>
+</tbody>
+</table>
+<h2 id="command-function">Command Function</h2>
+<p>When it starts with <code>:</code>, execute the following command directly to copy the standard output to the clipboard</p>
+<p>Such as input</p>
+<pre><code>:ps
+</code></pre><p>Then select the list prompt item</p>
+<h2 id="custom-keys">Custom keys</h2>
+<p><img src="./images/key-binding.png" alt=""></p>
 
       </div>
     </article>
