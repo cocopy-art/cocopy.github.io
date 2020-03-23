@@ -13,5 +13,5 @@ pygmentsCodeFences = true
     identifier = "help"
     name = "help"
     pre = "<i class='fa fa-heart'></i>"
-    url = "/help-cn.html"
+    url = "/help-en.html"
     weight = -110
