@@ -6,3 +6,5 @@ draft: false
 ---
 
 cocopy is a lightweight clipboard manage and  with powerfull extensions
+
+If you are interested, e-mail me: humboldt.xie@gmail.com

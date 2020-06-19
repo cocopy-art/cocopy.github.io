@@ -81,3 +81,21 @@ categories= ["help"]
 ## 自定义按键
 
 ![](./images/key-binding.png)
+
+## 扩展
+
+### ocr
+
+使用brew 安装 tesseract 及语言包
+
+```
+brew install tesseract tesseract-lang
+```
+
+拷贝以下命令
+
+```
+{"timeout": "5","name": "image/ocr-tesseract-chi_sim","command": "tesseract stdin stdout -l chi_sim","type": "png","outputType": "string","as": "stream"}
+```
+
+即可从图片提取文本,可结合 Snipaste 等截图工具，效果更佳
